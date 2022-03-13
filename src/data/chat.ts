@@ -79,18 +79,6 @@ let channels: Array<ChannelTypes> = [
       unRead: 12,
     },
   },
-  {
-    ...userChannels[1],
-  },
-  {
-    ...userChannels[2],
-    meta: {
-      unRead: 85,
-    },
-  },
-  {
-    ...userChannels[3],
-  },
 ];
 
 const onChangeChannels = (newData: Array<ChannelTypes>) => {

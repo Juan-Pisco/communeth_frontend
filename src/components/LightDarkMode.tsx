@@ -22,7 +22,7 @@ const LightDarkMode = ({ layoutMode, onChangeLayoutMode }: LightDarkProps) => {
         className="nav-link light-dark"
         onClick={() => onChangeLayoutMode(mode)}
       >
-        <i className="bx bx-moon" id="moon"></i>{" "}
+        {/* <i className="bx bx-moon" id="moon"></i>{" "} */}
       </NavLink>{" "}
       <UncontrolledTooltip placement="right" target="color-mode">
         <span className="light-mode">Light</span>
