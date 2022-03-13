@@ -13,11 +13,11 @@ interface FavouritesProps {
 const Favourites = ({ users, selectedChat, onSelectChat }: FavouritesProps) => {
   return (
     <>
-      <h5 className="mb-3 px-4 mt-4 font-size-11 text-muted text-uppercase">
+      {/* <h5 className="mb-3 px-4 mt-4 font-size-11 text-muted text-uppercase">
         Favourites
-      </h5>
+      </h5> */}
 
-      <div className="chat-message-list">
+      {/* <div className="chat-message-list">
         <ul className="list-unstyled chat-list chat-user-list">
           {(users || []).map((user: UserTypes, key: number) => (
             <ChatUser
@@ -28,7 +28,7 @@ const Favourites = ({ users, selectedChat, onSelectChat }: FavouritesProps) => {
             />
           ))}
         </ul>
-      </div>
+      </div> */}
     </>
   );
 };
