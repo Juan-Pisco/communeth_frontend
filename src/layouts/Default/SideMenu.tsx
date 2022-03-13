@@ -137,9 +137,9 @@ const ProfileDropdownMenu = ({ onChangeTab }: ProfileDropdownMenuProps) => {
       className="profile-user-dropdown"
       toggle={toggle}
     >
-      <DropdownToggle nav className="bg-transparent">
+      {/* <DropdownToggle nav className="bg-transparent"> */}
         <img src={avatar1} alt="" className="profile-user rounded-circle" />
-      </DropdownToggle>
+      {/* </DropdownToggle> */}
       <DropdownMenu>
         <DropdownItem
           className="d-flex align-items-center justify-content-between"
