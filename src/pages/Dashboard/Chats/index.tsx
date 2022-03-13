@@ -256,7 +256,7 @@ const Index = (props: IndexProps) => {
                 selectedChat={selectedChat}
                 onSelectChat={onSelectChat}
               />
-              <h5 className="text-center mb-2">
+              {/* <h5 className="text-center mb-2">
                 <Link
                   to="#"
                   className="mb-3 px-4 mt-4 font-size-11 text-primary"
@@ -265,7 +265,7 @@ const Index = (props: IndexProps) => {
                   Archived Contacts{" "}
                   <i className="bx bxs-archive-in align-middle" />
                 </Link>
-              </h5>
+              </h5> */}
             </>
           )}
           {active === CHATS_TABS.ARCHIVE && (
