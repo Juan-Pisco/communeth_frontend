@@ -29,7 +29,7 @@ const MENU_ITEMS: MenuItemType[] = [
     key: "pills-chat-tab",
     icon: "bx bx-conversation",
     tooltipTitle: "Chats",
-    tabId: TABS.CHAT,
+    tabId: TABS.CHAT, 
   },
   // {
   //   id: 3,
